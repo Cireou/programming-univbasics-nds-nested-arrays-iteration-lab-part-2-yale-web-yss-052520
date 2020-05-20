@@ -5,5 +5,6 @@ def find_min_in_nested_arrays(src)
   for r in 0...src.length do
     new_arr.push(src.sort()[0])
   end
+  p new_arr
   new_arr
 end
