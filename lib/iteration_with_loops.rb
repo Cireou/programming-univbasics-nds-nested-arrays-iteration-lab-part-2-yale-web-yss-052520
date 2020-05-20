@@ -3,6 +3,6 @@ def find_min_in_nested_arrays(src)
   # Produce a new Array that contains the smallest number of each of the nested arrays
   new_arr = []
   for r in 0...src.length do
-    src.sort()
+    new_arr.push(src.sort()[0])
   new_arr
 end
